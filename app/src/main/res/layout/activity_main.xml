@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="REGISTRATION"
+        android:textAlignment="center"
+        android:textColor="#000001"
+        android:textSize="55sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL ID"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NUMBER"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHOTOGRAPH"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageView
+        android:id="@+id/photoPreview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#D9D2D2"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Photo"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="672dp" />
+</LinearLayout>
